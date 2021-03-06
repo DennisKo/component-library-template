@@ -5,7 +5,7 @@ import { Button, ButtonProps } from './Button';
 export default {
   title: 'Button',
   component: Button,
-  description: `A button.`,
+  description: `A button that clicks!`,
   argTypes: {
     backgroundColor: { control: 'color' },
     color: { control: 'color' },
