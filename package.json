@@ -5,6 +5,9 @@
   "module": "lib/index.esm.js",
   "author": "dennisko <denniskortsch@gmail.com>",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@changesets/cli": "^2.14.1",
@@ -40,6 +43,7 @@
     "build-storybook": "build-storybook",
     "test": "jest",
     "test:watch": "jest --watch",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "release": "yarn build && changeset publish"
   }
 }
